@@ -19,9 +19,8 @@ city_name.innerText="Please write the name beforen you search";
             const data = await response.json();
             const arrData = [data];
             console.log(arrData[0].main.temp);
-            temp.innerText = 34;
-            // temp.innerText = arrData[0].main.temp;
-            // temp_status.innerText = arrData[0].weather[0].temp;
+            temp.innerText = arrData[0].main.temp;
+            temp_status.innerText = arrData[0].weather[0].temp;
 
 
         }   

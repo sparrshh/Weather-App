@@ -136,7 +136,6 @@ footer p{
     background-color: #323544;
     border-radius: 1rem;
     padding: 1rem;
-    font-family: "Roboto",sans-serif;
 }
 
 .top_layer{
@@ -175,9 +174,14 @@ footer p{
     color: #fff;
 }
 
-.main_layer .middle_layer p, .main_layer .middle_layer {
-    font-weight: 900 ;
-    font-size: 7rem;
+.main_layer .middle_layer p, 
+.main_layer .middle_layer.fa {
+    font-size: 5rem;
+    font-weight: 700 ;
+    
+}
+.fa{
+    color: #009ad8;
 }
 sup{
     font-size: 6rem;
